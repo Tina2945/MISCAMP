@@ -1,0 +1,1023 @@
+body{
+	background-image: url("img/street.jpg");
+    background-attachment:fixed;
+}
+
+a>input{
+	padding: 10px 30px;
+        text-align: center;
+        font-size: 15px;
+        font-family: courier;
+        border-radius: 12px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    margin-left: 30px;
+    position: absolute;
+}
+ .button1 {
+        background-color: black;
+        ;
+        color: white;
+    }
+    
+ .button1:hover {
+        background-color: gray;
+        color: black;
+        border: 2px solid black;
+    }
+body>h1{
+	text-align: center;
+	color:yellow;
+	font-size: 90px;
+    font-family: 'Microsoft JhengHei';
+}
+
+body>h3{
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    font-family: 'Microsoft JhengHei';
+}
+
+#ice_break a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#ice_break a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#ice_break .boxgrid{ 
+ width: 250px; 
+ height: 250px; 
+ margin:260px 250px; 
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#ice_break .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:250px; 
+}
+
+/*滑板樣式*/
+#ice_break .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 250px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#ice_break h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ position: center;
+ }
+ 
+/*滑板內容文字*/
+#ice_break .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+ 
+}
+
+
+/*滑板初始的位置*/
+#ice_break .caption .boxcaption {
+ top: 200px;
+ left: 0;
+}
+
+#opening a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#opening a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#opening .boxgrid{ 
+ width: 250px; 
+ height: 250px; 
+ margin:-260px 250px; 
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#opening .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:250px; 
+}
+
+/*滑板樣式*/
+#opening .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 250px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#opening h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ }
+ 
+/*滑板內容文字*/
+#opening .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+}
+
+
+/*滑板初始的位置*/
+#opening .caption .boxcaption {
+ top: 200px;
+ left: 0;
+}
+
+#evening_party a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#evening_party a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#evening_party .boxgrid{ 
+ width: 250px; 
+ height: 250px; 
+ margin: -6px 250px;
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#evening_party .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:250px; 
+}
+
+/*滑板樣式*/
+#evening_party .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 250px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#evening_party h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ }
+ 
+/*滑板內容文字*/
+#evening_party .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+}
+
+
+/*滑板初始的位置*/
+#evening_party .caption .boxcaption {
+ top: 200px;
+ left: 0;
+}
+
+#scary_night a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#scary_night a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#scary_night .boxgrid{ 
+ width: 250px; 
+ height: 250px; 
+ margin:6px 250px 100px; 
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#scary_night .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:250px; 
+}
+
+/*滑板樣式*/
+#scary_night .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 250px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#scary_night h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ }
+ 
+/*滑板內容文字*/
+#scary_night .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+}
+
+
+/*滑板初始的位置*/
+#scary_night .caption .boxcaption {
+ top: 200px;
+ left: 0;
+}
+
+#class1 a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#class1 a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#class1 .boxgrid{ 
+ width: 250px; 
+ height: 250px; 
+ margin:-1370px 504px; 
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#class1 .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:250px; 
+}
+
+/*滑板樣式*/
+#class1 .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 250px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#class1 h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ }
+ 
+/*滑板內容文字*/
+#class1 .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+}
+
+
+/*滑板初始的位置*/
+#class1 .caption .boxcaption {
+ top: 200px;
+ left: 0;
+}
+
+#class2 a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#class2 a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#class2 .boxgrid{ 
+ width: 250px; 
+ height: 250px; 
+ margin:-1116px 504px; 
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#class2 .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:250px; 
+}
+
+/*滑板樣式*/
+#class2 .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 250px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#class2 h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ }
+ 
+/*滑板內容文字*/
+#class2 .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+}
+
+
+/*滑板初始的位置*/
+#class2 .caption .boxcaption {
+ top: 200px;
+ left: 0;
+}
+
+#ground_game a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#ground_game a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#ground_game .boxgrid{ 
+ width: 250px; 
+ height: 250px; 
+ margin:-862px 504px; 
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#ground_game .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:250px; 
+}
+
+/*滑板樣式*/
+#ground_game .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 250px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#ground_game h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ }
+ 
+/*滑板內容文字*/
+#ground_game .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+}
+
+
+/*滑板初始的位置*/
+#ground_game .caption .boxcaption {
+ top: 200px;
+ left: 0;
+}
+
+#gambling a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#gambling a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#gambling .boxgrid{ 
+ width: 250px; 
+ height: 250px; 
+ margin:-608px 504px; 
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#gambling .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:250px; 
+}
+
+/*滑板樣式*/
+#gambling .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 250px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#gambling h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ }
+ 
+/*滑板內容文字*/
+#gambling .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+}
+
+
+/*滑板初始的位置*/
+#gambling .caption .boxcaption {
+ top: 200px;
+ left: 0;
+}
+
+#class3 a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#class3 a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#class3 .boxgrid{ 
+ width: 250px; 
+ height: 250px; 
+ margin:-1370px 758px; 
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#class3 .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:250px; 
+}
+
+/*滑板樣式*/
+#class3 .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 250px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#class3 h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ }
+ 
+/*滑板內容文字*/
+#class3 .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+}
+
+
+/*滑板初始的位置*/
+#class3 .caption .boxcaption {
+ top: 200px;
+ left: 0;
+}
+
+#RPG a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#RPG a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#RPG .boxgrid{ 
+ width: 250px; 
+ height: 505px; 
+ margin:-1116px 758px; 
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#RPG .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:505px; 
+}
+
+/*滑板樣式*/
+#RPG .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 505px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#RPG h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ }
+ 
+/*滑板內容文字*/
+#RPG .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+}
+
+
+/*滑板初始的位置*/
+#RPG .caption .boxcaption {
+ top: 450px;
+ left: 0;
+}
+
+#dancing_party a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#dancing_party a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#dancing_party .boxgrid{ 
+ width: 250px; 
+ height: 250px; 
+ margin:-608px 758px; 
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#dancing_party .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:250px; 
+}
+
+/*滑板樣式*/
+#dancing_party .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 250px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#dancing_party h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ }
+ 
+/*滑板內容文字*/
+#dancing_party .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+}
+
+
+/*滑板初始的位置*/
+#dancing_party .caption .boxcaption {
+ top: 200px;
+ left: 0;
+}
+
+#experience a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#experience a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#experience .boxgrid{ 
+ width: 250px; 
+ height: 250px; 
+ margin:-1370px 1012px; 
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#experience .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:250px; 
+}
+
+/*滑板樣式*/
+#experience .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 250px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#experience h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ }
+ 
+/*滑板內容文字*/
+#experience .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+}
+
+
+/*滑板初始的位置*/
+#experience .caption .boxcaption {
+ top: 200px;
+ left: 0;
+}
+
+#presentation a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#presentation a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#presentation .boxgrid{ 
+ width: 250px; 
+ height: 250px; 
+ margin:-1116px 1012px; 
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#presentation .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:250px; 
+}
+
+/*滑板樣式*/
+#presentation .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 250px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#presentation h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ }
+ 
+/*滑板內容文字*/
+#presentation .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+}
+
+
+/*滑板初始的位置*/
+#presentation .caption .boxcaption {
+ top: 200px;
+ left: 0;
+}
+
+#ending a{
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ 
+/*滑鼠經過超連結的樣式*/
+#ending a:hover{
+ color:#F3FA32;
+ font-weight:bold;
+}
+
+/*滑動說明組的總體*/
+#ending .boxgrid{ 
+ width: 250px; 
+ height: 250px; 
+ margin:-862px 1012px; 
+ float:left; 
+ background:#161613; 
+ overflow: hidden; 
+ position: relative;
+ border: 2px solid gray; 
+}
+
+/*顯示的圖檔*/
+#ending .boxgrid img{ 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width:250px;
+ height:250px; 
+}
+
+/*滑板樣式*/
+#ending .boxcaption{ 
+ float: left; 
+ position: relative; 
+ background:#000; 
+ height: 250px; 
+ width: 100%; 
+ opacity: .6; 
+    /* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+ /* For IE 8 */
+ -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*滑板內容文字-大標題*/
+#ending h2{
+ margin: 10px 10px 0 15px;
+ color:white;
+ font:20pt Arial,sans-serif;
+ letter-spacing:-1px;
+ font-weight: bold;
+ }
+ 
+/*滑板內容文字*/
+#ending .boxgrid p { 
+ padding: 15px 5px 5px 10px; 
+ color:#C8DCE5; 
+ font-weight:bold; 
+ font:12pt "Lucida Grande", Arial, sans-serif; 
+}
+
+
+/*滑板初始的位置*/
+#ending .caption .boxcaption {
+ top: 200px;
+ left: 0;
+}

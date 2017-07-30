@@ -1,0 +1,80 @@
+body{
+	background-image: url("img/street.jpg");
+    background-attachment:fixed;
+}
+a>input{
+	padding: 10px 30px;
+        text-align: center;
+        font-size: 15px;
+        font-family: courier;
+        border-radius: 12px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    margin-left: 30px;
+    position: absolute;
+}
+.button1 {
+        background-color: black;
+        
+        color: white;
+    }
+    
+.button1:hover {
+        background-color: gray;
+        color: black;
+        border: 2px solid black;
+    }
+body>h1{
+	text-align: center;
+	color:yellow;
+	font-size: 90px;
+    font-family: 'Microsoft JhengHei';
+}
+
+body>h2{
+    margin: 0px 100px;
+    color: white;
+}
+
+#st2 .inner {
+ padding-bottom: 0.25em;
+}
+/*半透明背景色與例一雷同*/
+#st2 h1 {
+ color: white; 
+ font-size: 25px;
+ background: rgba(3, 0, 82,0.4);
+ border-top: 25px solid;
+ border-right: 25px solid;
+ border-left: 10px solid;
+ border-bottom: 10px solid;
+ border-color: rgba(100%,100%,100%,0.1); /*20%白色*/
+ max-width: 150px;
+ margin: 10px 50px;
+  padding: 20px 20px;
+  font-family: 'Microsoft JhengHei';
+} /*三邊加上不同寬度的 border*/
+#st2 p {
+ padding: 20px 30px; 
+ color: white; 
+ font-size: 20px;
+ background: rgba(0%,10%,20%,0.6);
+ border-top: 10px solid rgba(100%,100%,100%,0.4);
+ border-right: 10px solid rgba(55%,55%,65%,0.4);
+ border-bottom: 10px solid rgba(30%,30%,40%,0.4);
+ border-left: 10px solid rgba(80%,80%,90%,0.4);
+ margin: 10px 100px;
+ padding-bottom: 20px;
+ font-family: 'Microsoft JhengHei';
+} /*四邊加上40%不同顏色的 border*/
+#st2 img{
+    padding: 30px 200px;
+}
+I{
+    color:yellow; 
+}
+I2{
+    color: red;
+}
+

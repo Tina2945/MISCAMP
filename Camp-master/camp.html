@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<meta name="description" content="Grid Loading and Hover Effect: Recreating Samsung's grid loading effect" />
+		<meta name="keywords" content="grid loading, swipe, effect, slide, masonry, web design, tutorial" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="img/1.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+<link rel=stylesheet type="text/css" href="camp.css">
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<meta charset="UTF-8">
+<title>2016 政大資管營</title>
+</head>
+<body>
+	<div class="bg"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+	<p>Holmis
+	<br>
+	7/13~7/16
+	</p>
+<img src="img/london.png">
+ <video width="400" controls>
+  <source src="https://www.youtube.com/watch?v=lMOL7twp5kg" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+<section class="grid-wrap">
+				<ul class="grid swipe-rotate" id="grid">
+					
+					<li><a href="#vedio"><img src="img/img1.png" alt="dummy"><h3>福爾摩資</h3></a></li>
+					<li><a href="3DGridEffect/index.html"><img src="img/img2.png" alt="dummy"><h3>偵探頭頭們</h3></a></li>
+					<li><a href="book/book.html"><img src="img/img3.png" alt="dummy"><h3>福爾摩資由來</h3></a></li>
+					<li><a href="Schedule.html"><img src="img/img4.png" alt="dummy"><h3>偵探訓練</h3></a></li>
+					<li><a href="Signup.html"><img src="img/img7.png" alt="dummy"><h3>成為偵探</h3></a></li>
+					<li><a href="Traffic.html"><img src="img/img8.png" alt="dummy"><h3>抵達案發現場</h3></a></li>
+					<li><a href="http://mis2.nccu.edu.tw/"><img src="img/img6.png" alt="dummy"><h3>了解更多</h3></a></li>
+					<li><a href="QA.html"><img src="img/img5.png" alt="dummy"><h3>勇敢發問</h3></a></li>
+					</ul>
+			</section>
+             <br>
+             <br>
+             <br>
+           <div class = "main" id="vedio">
+
+           	<center> <iframe width="1000" height="750" src="https://www.youtube.com/embed/o2rYBHBlDaU" frameborder="0" allowfullscreen></iframe> frameborder="0" allowfullscreen></iframe> </center>
+           </div>
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+    if (myVideo.paused) 
+        myVideo.play(); 
+    else 
+        myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
+			<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/colorfinder-1.1.js"></script>
+		<script src="js/gridScrollFx.js"></script>
+		<script>
+			new GridScrollFx( document.getElementById( 'grid' ), {
+				viewportFactor : 0.4
+			} );
+		</script>
+
+</body>
+</html>

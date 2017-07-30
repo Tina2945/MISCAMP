@@ -1,0 +1,126 @@
+body{
+	background-image: url("img/street.jpg");
+    background-attachment:fixed;
+}
+a>input{
+	padding: 10px 30px;
+        text-align: center;
+        font-size: 15px;
+        font-family: courier;
+        border-radius: 12px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    margin-left: 30px;
+    position: absolute;
+}
+.button1 {
+        background-color: black;
+        
+        color: white;
+    }
+    
+.button1:hover {
+        background-color: gray;
+        color: black;
+        border: 2px solid black;
+    }
+body>h1{
+	text-align: center;
+	color:yellow;
+	font-size: 90px;
+    font-family: 'Microsoft JhengHei';
+}
+
+body>h2{
+    padding: 30px;
+    color: white;
+    font-family: 'Microsoft JhengHei';
+}
+
+body>h3{
+    padding: 0px 50px; 
+    color: white;
+    font-family: 'Microsoft JhengHei';
+}
+
+body>iframe{
+    padding: 30px 200px;
+}
+
+.Gplus
+{
+margin-left: 200px;
+padding:10px 50px;
+border-radius: 12px;
+text-align:center;
+ background:black;
+border:solid 1px gray;
+color: white;
+width: 100px;
+}
+.Gnote
+{
+margin-left: 200px;
+padding: 10px 50px;
+border-radius: 12px;
+ background:#272727;
+border:solid 1px gray;
+height:auto;
+width: 800px;
+display:none;
+color: white;
+}
+
+.Gplus2
+{
+margin-left: 200px;
+padding:10px 50px;
+border-radius: 12px;
+text-align:center;
+ background:black;
+border:solid 1px gray;
+color: white;
+width: 100px;
+}
+.Gnote2
+{
+margin-left: 200px;
+padding: 10px 50px;
+border-radius: 12px;
+background:#272727;
+border:solid 1px gray;
+height:auto;
+width: 800px;
+display:none;
+color: white;
+}
+
+.Gplus3
+{
+margin-left: 200px;
+padding:10px 50px;
+border-radius: 12px;
+text-align:center;
+ background:black;
+border:solid 1px gray;
+color: white;
+width: 100px;
+}
+.Gnote3
+{
+margin-left: 200px;
+padding: 10px 50px;
+border-radius: 12px;
+margin-bottom: 100px; 
+background:#272727;
+border:solid 1px gray;
+height:auto;
+width: 800px;
+display:none;
+color: white;
+}
+
+I{
+    color: yellow;
+}
